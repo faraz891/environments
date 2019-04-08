@@ -21,3 +21,9 @@ forge "https://forgeapi.puppetlabs.com"
  mod 'testrepo',
    :git => 'https://github.com/faraz891/testrepo.git',
    :branch => 'master'
+
+
+mod 'puppetlabs-apache', '1.11.0'
+mod 'puppetlabs-mysql', '3.10.0'
+mod 'mayflower-php', '4.0.0-beta1'
+mod 'puppetlabs-concat'
