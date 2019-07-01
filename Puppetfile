@@ -22,6 +22,10 @@ forge "https://forgeapi.puppetlabs.com"
    :git => 'https://github.com/faraz891/testrepo.git',
    :branch => 'master'
 
+ mod 'apache',
+   :git => 'https://github.com/faraz891/apache.git',
+   :branch => 'master'
+
 
 mod 'puppetlabs-apache', '1.11.0'
 mod 'puppetlabs-mysql', '3.10.0'
